@@ -1,0 +1,15 @@
+WEB SCRAPER TO SCRAPE TIMES OF INDIA ARCHIVE
+
+
+LANGUAGE USED- Python 3.6.6. Recommended 3.5.x and above 
+
+MODULES USED- request, requests, beautifulsoup4, datetime, json, csv, threading
+
+				NOTE that beautifulsoup4 must be used. Lower Versions will not work.
+
+
+A seperate python program "seperate_csv_to_json.py" is written to convert the "my_csv.csv" to "my_json.json" if the program is interuptted or closed in between. Otherwise on successful execution "spider_backend.py" will convert "my_csv.csv" to "my_json.json".
+
+
+ERRORS may/will occur only if the TIMES OF INDIA ARCHIVE SERVER is overloaded. 
+
